@@ -10076,7 +10076,7 @@
 			<boolean/>
 		</property>
 
-		<property name="mapName" value="22-country_world_at_war" editable="false">
+		<property name="mapName" value="22_country_world_at_war" editable="false">
 			<string/>
 		</property>
 
