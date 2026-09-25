@@ -418,6 +418,7 @@
 		<territory name="Netherlands"/>
 		<territory name="Santiago"/>
 		<territory name="Munster"/>
+		<territory name="Volgograd"/>
 		<territory name="10 Sea Zone" water="true"/>
 		<territory name="21 Sea Zone" water="true"/>
 		<territory name="22 Sea Zone" water="true"/>
@@ -544,6 +545,10 @@
 		<territory name="92 Sea Zone" water="true"/>
 		<territory name="87 Sea Zone" water="true"/>
 		<territory name="39 Sea Zone" water="true"/>
+		<territory name="130 Sea Zone" water="true"/>
+		<territory name="131 Sea Zone" water="true"/>
+		<territory name="132 Sea Zone" water="true"/>
+		<territory name="133 Sea Zone" water="true"/>
 
 		<!-- Territory Connections -->
 		<connection t1="East Prussia" t2="Lithuania"/>
@@ -653,7 +658,6 @@
 		<connection t1="Olyokminsk" t2="N.Buryat Mongolia"/>
 		<connection t1="Astrakhan" t2="126 Sea Zone"/>
 		<connection t1="Astrakhan" t2="Azerbaijan"/>
-		<connection t1="Astrakhan" t2="Kuybyshev"/>
 		<connection t1="Astrakhan" t2="Saratov"/>
 		<connection t1="Astrakhan" t2="Erzurum"/>
 		<connection t1="Astrakhan" t2="Georgia"/>
@@ -693,7 +697,6 @@
 		<connection t1="Stalingrad" t2="Saratov"/>
 		<connection t1="Stalingrad" t2="Rostov"/>
 		<connection t1="Komi" t2="Salekhard"/>
-		<connection t1="Kuybyshev" t2="Saratov"/>
 		<connection t1="Kuybyshev" t2="Chimkent"/>
 		<connection t1="Kursk" t2="Smolensk"/>
 		<connection t1="Kursk" t2="Tula"/>
@@ -1134,7 +1137,7 @@
 		<connection t1="West Papua" t2="Port Moresby"/>
 		<connection t1="West Papua" t2="Hollandia"/>
 		<connection t1="West Papua" t2="114 Sea Zone"/>
-		<connection t1="West Papua" t2="113 Sea Zone"/>
+		<connection t1="West Papua" t2="133 Sea Zone"/>
 		<connection t1="West Papua" t2="109 Sea Zone"/>
 		<connection t1="West Papua" t2="108 Sea Zone"/>
 		<connection t1="West Papua" t2="Merauke"/>
@@ -1172,7 +1175,7 @@
 		<connection t1="Jilolo" t2="112 Sea Zone"/>
 		<connection t1="Timor" t2="112 Sea Zone"/>
 		<connection t1="Timor" t2="113 Sea Zone"/>
-		<connection t1="Timor" t2="67 Sea Zone"/>
+		<connection t1="Timor" t2="132 Sea Zone"/>
 		<connection t1="Aroe" t2="113 Sea Zone"/>
 		<connection t1="West Borneo" t2="East And South Borneo"/>
 		<connection t1="West Borneo" t2="106 Sea Zone"/>
@@ -1181,7 +1184,7 @@
 		<connection t1="Hollandia" t2="108 Sea Zone"/>
 		<connection t1="Hollandia" t2="Merauke"/>
 		<connection t1="Soembawa" t2="111 Sea Zone"/>
-		<connection t1="Soembawa" t2="67 Sea Zone"/>
+		<connection t1="Soembawa" t2="132 Sea Zone"/>
 		<connection t1="Soembawa" t2="Flores"/>
 		<connection t1="Soembawa" t2="Lombok"/>
 		<connection t1="East And South Borneo" t2="110 Sea Zone"/>
@@ -1554,7 +1557,7 @@
 		<connection t1="112 Sea Zone" t2="Hollandia"/>
 		<connection t1="112 Sea Zone" t2="111 Sea Zone"/>
 		<connection t1="112 Sea Zone" t2="113 Sea Zone"/>
-		<connection t1="112 Sea Zone" t2="67 Sea Zone"/>
+		<connection t1="112 Sea Zone" t2="132 Sea Zone"/>
 		<connection t1="112 Sea Zone" t2="Flores"/>
 		<connection t1="112 Sea Zone" t2="Celebes"/>
 		<connection t1="112 Sea Zone" t2="Merauke"/>
@@ -1697,16 +1700,14 @@
 		<connection t1="Newfoundland" t2="7 Sea Zone"/>
 		<connection t1="South Africa" t2="Angola"/>
 		<connection t1="South Africa" t2="Mozambique"/>
-		<connection t1="66 Sea Zone" t2="64 Sea Zone"/>
 		<connection t1="66 Sea Zone" t2="65 Sea Zone"/>
-		<connection t1="66 Sea Zone" t2="70 Sea Zone"/>
-		<connection t1="66 Sea Zone" t2="69 Sea Zone"/>
+		<connection t1="66 Sea Zone" t2="131 Sea Zone"/>
 		<connection t1="66 Sea Zone" t2="67 Sea Zone"/>
+		<connection t1="66 Sea Zone" t2="132 Sea Zone"/>
 		<connection t1="66 Sea Zone" t2="Sumatra"/>
 		<connection t1="66 Sea Zone" t2="Java"/>
 		<connection t1="60 Sea Zone" t2="61 Sea Zone"/>
 		<connection t1="60 Sea Zone" t2="64 Sea Zone"/>
-		<connection t1="60 Sea Zone" t2="65 Sea Zone"/>
 		<connection t1="60 Sea Zone" t2="Hyderabad"/>
 		<connection t1="60 Sea Zone" t2="Calcutta"/>
 		<connection t1="60 Sea Zone" t2="Madras"/>
@@ -1778,7 +1779,6 @@
 		<connection t1="65 Sea Zone" t2="Malaya"/>
 		<connection t1="59 Sea Zone" t2="63 Sea Zone"/>
 		<connection t1="59 Sea Zone" t2="Mysore"/>
-		<connection t1="63 Sea Zone" t2="66 Sea Zone"/>
 		<connection t1="63 Sea Zone" t2="69 Sea Zone"/>
 		<connection t1="63 Sea Zone" t2="Mysore"/>
 		<connection t1="85 Sea Zone" t2="75 Sea Zone"/>
@@ -1827,7 +1827,8 @@
 		<connection t1="120 Sea Zone" t2="114 Sea Zone"/>
 		<connection t1="120 Sea Zone" t2="121 Sea Zone"/>
 		<connection t1="120 Sea Zone" t2="Queensland"/>
-		<connection t1="114 Sea Zone" t2="113 Sea Zone"/>
+		<connection t1="133 Sea Zone" t2="113 Sea Zone"/>
+		<connection t1="133 Sea Zone" t2="114 Sea Zone"/>
 		<connection t1="114 Sea Zone" t2="115 Sea Zone"/>
 		<connection t1="114 Sea Zone" t2="Queensland"/>
 		<connection t1="114 Sea Zone" t2="109 Sea Zone"/>
@@ -1847,15 +1848,18 @@
 		<connection t1="70 Sea Zone" t2="67 Sea Zone"/>
 		<connection t1="70 Sea Zone" t2="South Australia"/>
 		<connection t1="113 Sea Zone" t2="67 Sea Zone"/>
-		<connection t1="113 Sea Zone" t2="Queensland"/>
+	    <connection t1="113 Sea Zone" t2="132 Sea Zone"/>
+		<connection t1="133 Sea Zone" t2="Queensland"/>
 		<connection t1="113 Sea Zone" t2="Northern Territory"/>
+		<connection t1="133 Sea Zone" t2="Northern Territory"/>
 		<connection t1="113 Sea Zone" t2="Tanimbar"/>
-		<connection t1="113 Sea Zone" t2="Townsville"/>
+		<connection t1="133 Sea Zone" t2="Townsville"/>
 		<connection t1="113 Sea Zone" t2="Merauke"/>
+		<connection t1="133 Sea Zone" t2="Merauke"/>
 		<connection t1="67 Sea Zone" t2="Northern Territory"/>
-		<connection t1="67 Sea Zone" t2="Flores"/>
-		<connection t1="67 Sea Zone" t2="Lombok"/>
-		<connection t1="67 Sea Zone" t2="Java"/>
+		<connection t1="132 Sea Zone" t2="Flores"/>
+		<connection t1="132 Sea Zone" t2="Lombok"/>
+		<connection t1="132 Sea Zone" t2="Java"/>
 		<connection t1="115 Sea Zone" t2="121 Sea Zone"/>
 		<connection t1="115 Sea Zone" t2="109 Sea Zone"/>
 		<connection t1="115 Sea Zone" t2="Fiji"/>
@@ -1937,6 +1941,10 @@
 		<connection t1="72 Sea Zone" t2="Kamchatka"/>
 		<connection t1="72 Sea Zone" t2="Attu"/>
 		<connection t1="78 Sea Zone" t2="77 Sea Zone"/>
+		<connection t1="130 Sea Zone" t2="60 Sea Zone"/>
+		<connection t1="130 Sea Zone" t2="61 Sea Zone"/>
+		<connection t1="130 Sea Zone" t2="65 Sea Zone"/>
+		<connection t1="130 Sea Zone" t2="64 Sea Zone"/>
 		<connection t1="Adana" t2="W.Iran"/>
 		<connection t1="Adana" t2="Iraq"/>
 		<connection t1="Adana" t2="Erzurum"/>
@@ -2043,8 +2051,8 @@
 		<connection t1="Munster" t2="18 Sea Zone"/>
 		<connection t1="Shikoku" t2="Kyushu"/>
 		<connection t1="Tohoku" t2="Hokkaido"/>
-		<connection t1="110 Sea Zone" t2="67 Sea Zone"/>
-		<connection t1="111 Sea Zone" t2="67 Sea Zone"/>
+		<connection t1="110 Sea Zone" t2="132 Sea Zone"/>
+		<connection t1="111 Sea Zone" t2="132 Sea Zone"/>
 		<connection t1="110 Sea Zone" t2="66 Sea Zone"/>
 		<connection t1="North Central USA" t2="Southwest USA"/>
 		<connection t1="Bursa" t2="Istanbul"/>
@@ -2054,6 +2062,11 @@
 		<connection t1="118 Sea Zone" t2="125 Sea Zone"/>
 		<connection t1="Southwest USA" t2="South Central USA"/>
 		<connection t1="Guadalcanal" t2="New Georgia"/>
+		<connection t1="Volgograd" t2="Kuybyshev"/>
+		<connection t1="Volgograd" t2="Astrakhan"/>
+		<connection t1="Volgograd" t2="Penza"/>
+		<connection t1="Volgograd" t2="Saratov"/>
+		<connection t1="Volgograd" t2="126 Sea Zone"/>
 
 		<connection t1="104 Sea Zone" t2="97 Sea Zone"/>
 		<connection t1="104 Sea Zone" t2="117 Sea Zone"/>
@@ -2082,6 +2095,16 @@
 		<connection t1="124 Sea Zone" t2="117 Sea Zone"/>
 		<connection t1="124 Sea Zone" t2="118 Sea Zone"/>
 		<connection t1="124 Sea Zone" t2="Tonga"/>
+		<connection t1="131 Sea Zone" t2="65 Sea Zone"/>
+		<connection t1="131 Sea Zone" t2="64 Sea Zone"/>
+		<connection t1="131 Sea Zone" t2="63 Sea Zone"/>
+		<connection t1="131 Sea Zone" t2="69 Sea Zone"/>
+		<connection t1="131 Sea Zone" t2="70 Sea Zone"/>
+		<connection t1="131 Sea Zone" t2="67 Sea Zone"/>
+		<connection t1="132 Sea Zone" t2="67 Sea Zone"/>
+		
+		
+	
 	</map>
 
 	<resourceList>
@@ -4654,6 +4677,9 @@
 		<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
 		</attachment>
+		<attachment name="territoryAttachment" attachTo="Volgograd" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+			<option name="production" value="1"/>
+		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kursk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
 		</attachment>
@@ -5144,7 +5170,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Dover" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="British Somaliland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -5316,7 +5342,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Port Moresby" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="4"/>
+			<option name="production" value="3"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="South New Zealand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -5911,7 +5937,7 @@
 			<option name="landTerritories" value="Sumatra:Java"/>
 		</attachment>
 
-		<attachment name="canalAttachmentJava - Lombok" attachTo="67 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+		<attachment name="canalAttachmentJava - Lombok" attachTo="132 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
 			<option name="canalName" value="the Java - Lombok channel"/>
 			<option name="landTerritories" value="Java:Lombok"/>
 		</attachment>
@@ -5920,7 +5946,7 @@
 			<option name="landTerritories" value="Java:Lombok"/>
 		</attachment>
 
-		<attachment name="canalAttachmentLombok - Soembawa" attachTo="67 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+		<attachment name="canalAttachmentLombok - Soembawa" attachTo="132 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
 			<option name="canalName" value="the Lombok - Soembawa channel"/>
 			<option name="landTerritories" value="Lombok:Soembawa"/>
 		</attachment>
@@ -5929,7 +5955,7 @@
 			<option name="landTerritories" value="Lombok:Soembawa"/>
 		</attachment>
 
-		<attachment name="canalAttachmentSoembawa - Flores" attachTo="67 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+		<attachment name="canalAttachmentSoembawa - Flores" attachTo="132 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
 			<option name="canalName" value="the Soembawa - Flores channel"/>
 			<option name="landTerritories" value="Soembawa:Flores"/>
 		</attachment>
@@ -5938,7 +5964,7 @@
 			<option name="landTerritories" value="Soembawa:Flores"/>
 		</attachment>
 
-		<attachment name="canalAttachmentFlores - Timor" attachTo="67 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+		<attachment name="canalAttachmentFlores - Timor" attachTo="132 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
 			<option name="canalName" value="the Flores - Timor channel"/>
 			<option name="landTerritories" value="Flores:Timor"/>
 		</attachment>
@@ -6095,7 +6121,7 @@
 			<option name="canalName" value="the French Somaliland - Yemen channel"/>
 			<option name="landTerritories" value="French Somaliland:Yemen"/>
 		</attachment>
-		<attachment name="canalAttachmentFrench Somaliland - Yemen" attachTo="62 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+		<attachment name="canalAttachmentFrench Somaliland - Yemen" attachTo="58 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
 			<option name="canalName" value="the French Somaliland - Yemen channel"/>
 			<option name="landTerritories" value="French Somaliland:Yemen"/>
 		</attachment>
@@ -8375,6 +8401,7 @@
 			<territoryOwner territory="Komi" owner="Russians"/>
 			<territoryOwner territory="Sverdlovsk" owner="Russians"/>
 			<territoryOwner territory="Kuybyshev" owner="Russians"/>
+			<territoryOwner territory="Volgograd" owner="Russians"/>
 			<territoryOwner territory="Kursk" owner="Russians"/>
 			<territoryOwner territory="Zhigansk" owner="Russians"/>
 			<territoryOwner territory="Khatanga" owner="Russians"/>
@@ -8787,7 +8814,8 @@
 			<unitPlacement unitType="Factory" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bomber" territory="Sverdlovsk" quantity="1" owner="Russians"/>
-			<unitPlacement unitType="Artillery" territory="Kuybyshev" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Kuybyshev" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Volgograd" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Kursk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Kursk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Zhigansk" quantity="1" owner="Russians"/>
@@ -8841,7 +8869,7 @@
 			<unitPlacement unitType="Infantry" territory="Minsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Sicily" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Infantry" territory="Rome" quantity="2" owner="Italians"/>
-			<unitPlacement unitType="Bunker" territory="Rome" quantity="2" owner="Italians"/>
+			<unitPlacement unitType="Bunker" territory="Rome" quantity="1" owner="Italians"/>
 
 			<unitPlacement unitType="Fighter" territory="Lombardy" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Fighter" territory="Sardinia" quantity="1" owner="Italians"/>
@@ -9619,7 +9647,7 @@
 			<unitPlacement unitType="Infantry" territory="Munster" quantity="2"/>
 
 
-			<unitPlacement unitType="Transport" territory="113 Sea Zone" quantity="1" owner="British"/>
+			<unitPlacement unitType="Transport" territory="133 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="114 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Carrier" territory="114 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Fighter" territory="Port Moresby" quantity="1" owner="British"/>
@@ -9632,7 +9660,7 @@
 
 			<unitPlacement unitType="Destroyer" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Carrier" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
-			<unitPlacement unitType="Submarine" territory="113 Sea Zone" quantity="1" owner="Anzac"/>
+			<unitPlacement unitType="Submarine" territory="133 Sea Zone" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Transport" territory="67 Sea Zone" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Destroyer" territory="67 Sea Zone" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Submarine" territory="115 Sea Zone" quantity="1" owner="British"/>
